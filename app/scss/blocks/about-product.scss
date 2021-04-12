@@ -127,7 +127,7 @@
     transform-origin: 50%;
 }
 .features-circle svg circle {
-    stroke: #00cdcd;
+    stroke: $primaryColor;
 }
 
 .recommendation-section {
@@ -199,7 +199,7 @@
     }
 }
 @media (max-width: 576px) {
-    .arabica-block{
+    .arabica-block {
         padding: 100px 0;
     }
     .main-features {
