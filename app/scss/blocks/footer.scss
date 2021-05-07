@@ -3,7 +3,7 @@
     padding: 40px 0;
     background-color: $primaryColor;
     color: #000;
-    .conditions-text{
+    .conditions-text {
         color: #fff;
     }
 }
@@ -55,9 +55,15 @@
         vertical-align: baseline;
     }
 }
+.positive-text {
+    color: #fff;
+}
+.negative-text {
+    color: #c51603;
+}
 
 @media (max-width: 576px) {
-    .social__list{
+    .social__list {
         justify-content: center;
     }
 }
